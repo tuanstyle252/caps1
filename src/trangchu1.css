@@ -1,0 +1,64 @@
+body{
+    background-color:#cbcfd6;
+}
+.container{
+    padding: 0;
+    margin: 0;
+    width: 1920px;
+    height: auto;
+    
+}
+.menu{
+    width: 1920px;
+    height: 85px;
+    background: #78A570 0% 0% no-repeat padding-box;
+}
+.menu .logo{
+    height: 85px;
+    width: 80px;
+    margin-left: 50px;
+}
+.menu ul{
+    list-style: none;    
+}
+.menu ul li{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.menu .sua{
+    font: normal normal bold 70px/99px Trajan Pro;
+    font-size: 50px;
+    line-height: 85px;
+    color: #1E3A28;
+}
+.menu input{
+    background: #F5F3F5 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 520px;
+    border-radius: 10px;
+    height: 35px;
+}
+.menu .hinh{
+    height: 50px;
+    width: 70px;
+    margin-top: 25px;
+}
+.menu .sua1{
+    color: #1E3A28;
+    float:right;
+    margin-top:13px;
+    font-size: 45px;
+    margin-left: 200px;
+    font: normal normal bold 50px/58px Times New Roman;
+}
+.menu label:hover{
+    text-decoration: underline solid white;
+}
+.menu .hinh2{
+    height: 78px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
