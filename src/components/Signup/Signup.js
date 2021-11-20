@@ -1,9 +1,8 @@
 import React from "react";
-import './tuan.css'
-import logo from './images/atermis.png'
+import logo from '../../assets/icons/Logo@2x.png'
 import { Link } from "react-router-dom";
 
-function signup(pops){
+function Signup(pops){
     return(
         <div className="signup">
             <div class="h-sceen flex items-center justify-center ">
@@ -52,4 +51,4 @@ function signup(pops){
         </div>
     )
 }
-export default signup;
+export default Signup;

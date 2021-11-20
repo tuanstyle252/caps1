@@ -1,9 +1,9 @@
 import React from "react";
-import './tuan.css'
-import logo from './images/atermis.png'
+import './1.css'
+import logo from '../../assets/icons/Logo@2x.png'
 import { Link } from "react-router-dom";
 
-function login(pops){
+function Signin(pops){
     return(
         <div className="signup">
         <div class="h-sceen flex items-center justify-center ">
@@ -21,7 +21,7 @@ function login(pops){
                 <form>
                     
                 <div class="mb-4">
-                        <input type='text' name="phone" id="phone" placeholder="số điện thoại" class="focus:border-blue-500 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none" autocomplete="current-password" required/>
+                        <input type='number' name="phone" id="phone" placeholder="số điện thoại" class="focus:border-blue-500 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none" autocomplete="current-password" required/>
                     </div>
                     
                     <div class="mb-4">
@@ -44,4 +44,4 @@ function login(pops){
     </div>
     )
 }
-export default login;
+export default Signin;
