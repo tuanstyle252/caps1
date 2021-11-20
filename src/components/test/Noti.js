@@ -1,5 +1,5 @@
 import React from 'react'
-import './test.css'
+import './Noti.css'
 import Logo from '../../assets/icons/remind.png'
 import Logo1 from '../../assets/icons/phongkham.png'
 // import Logo from '../../../assets/icons/Logo.png'
@@ -7,7 +7,8 @@ import Logo1 from '../../assets/icons/phongkham.png'
 // import {useSelector} from 'react-redux'
 // import { useHistory } from 'react-router'
 // import { Link } from 'react-router-dom'
-const Test = () => {
+const Noti = () => {
+    // thêm vô index.html <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 return (    
     <div className='main1'>
@@ -48,4 +49,4 @@ return (
        </div>
 )
 }
-export default Test;
+export default Noti;

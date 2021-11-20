@@ -10,7 +10,6 @@ import setAuthToken from '../../utils/setAuthToken'
 import { useDispatch } from "react-redux";
 import {PersistGate} from 'redux-persist/integration/react'
 import bodydocument from "../documentlist/body/body";
-import Test from "../test/test";
 const Mainrouter = () =>{
     const history = useHistory();
     const dispatch = useDispatch();
@@ -41,7 +40,7 @@ const Mainrouter = () =>{
     return(
             <Switch >
                {/* <Route path='/' component={Test} /> */}
-                <Route path='/body' component={bodydocument} />
+                <Route path='/' component={bodydocument} />
                 <Route path='/chat' component={chat} />
                 <Route path='/Signin' component={Signin} />
                 <Route path='/Signup' component={Signup}/>

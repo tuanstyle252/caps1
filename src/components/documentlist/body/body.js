@@ -9,6 +9,8 @@ import Background from '../../../assets/image/background@2x.png'
 import Headerdocument from '../header/header';
 import Footer from '../../Footer/Footer';
 import './document.css'
+import Logo from '../../../assets/icons/remind.png'
+import Logo1 from '../../../assets/icons/phongkham.png'
 const bodydocument = () =>{
 
     return (
@@ -81,11 +83,28 @@ const bodydocument = () =>{
                    
                         <div className="box1">
                             <div className="box-header1">
-                                <label className="box-header-title">Tài Liệu Tải Lên Bởi Phòng Khám</label>
+                                <label className="box-header-title">Tài Liệu Tải Lên Bởi Phòng Khám:</label>
+                                </div>
+                            <div className='file'>
+                                <div className='file_box'>
+                                <p href='' className="header_file">
+                                <img src={Logo} alt='' className='header_file-img'/>
+                                <div className='header_file-info'>
+                                <span className='header_file-name'>FileName</span>
+                                <span className='header_file-descriotion'>File description</span>
+                                <span className='header_file-descriotion'>File description</span>
+                                </div>
+
+                            </p>
+                         
+                                
+                            
+    
                             </div>
                         </div>
                     </div>
                 </div>  
+            </div>
             </div>
             <Footer></Footer>
         </div>

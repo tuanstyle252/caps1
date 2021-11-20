@@ -5,7 +5,7 @@ import Search from '../../../assets/icons/Search.png'
 import {useSelector} from 'react-redux'
 import { useHistory } from 'react-router'
 import { Link } from 'react-router-dom'
-import Test from '../../test/test'
+import Noti from '../../test/Noti'
 const Headerdocument = () => {
 const user = useSelector(state => state.user);
 const history = useHistory();
@@ -31,7 +31,7 @@ return (
                     <ion-icon name="notifications-outline" style={{fontSize:'40px'}}> </ion-icon>
                         <Test></Test>
                     </button> */}
-                    <Test></Test>
+                    <Noti></Noti>
                 <button className="btn1">
                     <ion-icon name="chatbubbles-outline" style={{fontSize:'40px'}}></ion-icon>
                 </button>

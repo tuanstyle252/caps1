@@ -86,3 +86,32 @@
 .notification_box .header_notify-link:hover{
     background-color: #f1f1f1;
 }
+.header_notify-link{
+    display: flex;
+    padding: 12px;
+    text-decoration: none;
+    
+    }
+    .header_notify-img{
+        width: 40px;
+        object-fit: contain;
+    }
+    .header_notify-info{
+        margin-left: 12px;
+    }
+    .header_notify-name{
+        display: block;
+        font-size: 20px;
+        color: #6D5D5D;
+        font-weight: 500;
+    }
+    .header_notify-descriotion{
+        display: block;
+        font-size: 14px;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        color: #6D5D5D;
+    }
+    .header_notify-time{
+        margin-left: 140px;
+    }

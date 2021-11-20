@@ -120,3 +120,17 @@
     color:#8D9986;
 
 }
+.file{
+    width: 100%;
+    display: flex;
+
+}
+.file .file_box{
+    width: 900px;
+    height: 350px;
+    white-space: nowrap;
+    padding-top: 15px;
+}
+.header_file{
+    display: flex;
+}
