@@ -10,6 +10,8 @@ import setAuthToken from '../../utils/setAuthToken'
 import { useDispatch } from "react-redux";
 import {PersistGate} from 'redux-persist/integration/react'
 import bodydocument from "../documentlist/body/body";
+import facility from "../facility list/body/body";
+import facilitypet from "../Facility - Pet Owner View/body/body";
 const Mainrouter = () =>{
     const history = useHistory();
     const dispatch = useDispatch();
@@ -40,7 +42,8 @@ const Mainrouter = () =>{
     return(
             <Switch >
                {/* <Route path='/' component={Test} /> */}
-                <Route path='/' component={bodydocument} />
+               <Route path='/' component={facilitypet} />
+                <Route path='/documentlist' component={bodydocument} />
                 <Route path='/chat' component={chat} />
                 <Route path='/Signin' component={Signin} />
                 <Route path='/Signup' component={Signup}/>
