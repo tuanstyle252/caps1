@@ -12,6 +12,7 @@ import {PersistGate} from 'redux-persist/integration/react'
 import bodydocument from "../documentlist/body/body";
 import facility from "../facility list/body/body";
 import facilitypet from "../Facility - Pet Owner View/body/body";
+import help from "../help/body/body";
 const Mainrouter = () =>{
     const history = useHistory();
     const dispatch = useDispatch();
@@ -42,7 +43,7 @@ const Mainrouter = () =>{
     return(
             <Switch >
                {/* <Route path='/' component={Test} /> */}
-               <Route path='/' component={facilitypet} />
+               <Route path='/' component={help} />
                 <Route path='/documentlist' component={bodydocument} />
                 <Route path='/chat' component={chat} />
                 <Route path='/Signin' component={Signin} />
